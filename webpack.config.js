@@ -27,7 +27,8 @@ module.exports = {
     extensions: ['*', '.js', '.jsx'],
     alias: {
       Components: path.resolve(__dirname, 'src/components/'),
-      Images: path.resolve(__dirname, 'src/assets/images')
+      Images: path.resolve(__dirname, 'src/assets/images'),
+      Pages: path.resolve(__dirname, 'src/pages')
     }
   },
   output: {

@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import 'normalize.css'
-import {Container} from 'Components/containers/Container'
-import background from 'Images/background.png'
+import {Auth} from 'Pages'
+
 
 ReactDOM.render(
-  <Container image={background}/>,
+  <Auth />,
   document.getElementById('root')
 );
 
